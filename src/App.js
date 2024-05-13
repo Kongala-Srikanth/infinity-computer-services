@@ -13,13 +13,13 @@ function App() {
   return ( 
       <Switch>
         
-        <Route exact path='/infinity-computer-services' component={Home} />
-        <Route exact path='/infinity-computer-services/services' component={Services} />
-        <Route exact path='/infinity-computer-services/contact' component={ContactUs} />
-        <Route exact path='/infinity-computer-services/about' component={AboutUs}/>
-        <Route exact path='/infinity-computer-services/user-form' component={UserForm}/>
-        <Route exact path='/infinity-computer-services/bad-path' component={NotFound} />
-        <Redirect to='/infinity-computer-services'/>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/services' component={Services} />
+        <Route exact path='/contact' component={ContactUs} />
+        <Route exact path='/about' component={AboutUs}/>
+        <Route exact path='/user-form' component={UserForm}/>
+        <Route exact path='/bad-path' component={NotFound} />
+        <Redirect to='/bad-path'/>
       </Switch>   
   )
 }
