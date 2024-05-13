@@ -13,7 +13,7 @@ const AboutUs = () => (
             <div className="about-container">
                 <div className="about-card">
                     <div className="about-image">
-                        <img src="https://th.bing.com/th/id/OIG1.RyREbrtwH3uyFU.A_m1S?pid=ImgGn" alt="About Image" classNameName='about-img'/>
+                        <img src="https://th.bing.com/th/id/OIG1.RyREbrtwH3uyFU.A_m1S?pid=ImgGn" alt="About Img" classNameName='about-img'/>
                     </div>
                     <div className="about-content">
                         <h2>Welcome to Our Infinity Computer Services</h2>
