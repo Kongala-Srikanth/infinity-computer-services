@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/infinity-computer-services/static/css/main.b5c285e2.css",
+    "main.js": "/infinity-computer-services/static/js/main.918ed6d7.js",
+    "static/js/453.afd627c7.chunk.js": "/infinity-computer-services/static/js/453.afd627c7.chunk.js",
+    "index.html": "/infinity-computer-services/index.html",
+    "main.b5c285e2.css.map": "/infinity-computer-services/static/css/main.b5c285e2.css.map",
+    "main.918ed6d7.js.map": "/infinity-computer-services/static/js/main.918ed6d7.js.map",
+    "453.afd627c7.chunk.js.map": "/infinity-computer-services/static/js/453.afd627c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5c285e2.css",
+    "static/js/main.918ed6d7.js"
+  ]
+}
