@@ -79,7 +79,7 @@ function App() {
   return ( 
       <Switch>
         
-        <Route exact path='/' component={Home} />
+        <Route exact path='//infinity-computer-services' component={Home} />
         <Route exact path='/services' component={Services} />
         <Route exact path='/contact' component={ContactUs} />
         <Route exact path='/about' component={AboutUs}/>
