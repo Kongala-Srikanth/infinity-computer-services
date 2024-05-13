@@ -1,0 +1,149 @@
+.about-main-container{
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; 
+    padding: 50px 0px;
+}
+
+.main-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    padding: 20px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: row; /* Stack content vertically on small screens */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding-right: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.about-image {
+    width: 100%; /* Image takes full width by default */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+}
+
+.about-img{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    display: block;
+    transition: transform 0.3s ease;
+    
+}
+
+.about-content {
+    padding: 20px;
+    width: 100%;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.our-services-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.about-content li {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.booking-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff6b6b;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.booking-button:hover {
+    background-color: #e64c4c;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ff6b6b;
+}
+
+/* Media Query for Small Screens (e.g., Mobile Phones) */
+@media (max-width: 992px) {
+    .about-card {
+        flex-direction: column; /* Stack content vertically on small screens */
+    }
+
+    .about-image {
+        width: 100%; /* Image takes full width on small screens */
+    }
+
+    .about-content {
+        width: 100%; /* Content takes full width on small screens */
+    }
+}

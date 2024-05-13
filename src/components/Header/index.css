@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 5%;
+    background-color: #017ba3;
+}
+
+.nav-btn-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+
+
+
+.nav-hide-btn{
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    margin-right: 5px;
+    
+}
+
+.nav-hide-btn:hover{
+    background-color: rgb(16, 174, 213);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.nav-hide-btn-active{
+    background-color: rgb(16, 174, 213);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.website-logo{
+    color: #ffffff;
+    font-size: 50px;
+    margin-right: 5px;
+}
+
+.website-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffffa4;
+    padding: 0px 15px;
+    background-color: #ffffff2b;
+    border-radius: 3px;
+}
+
+.website-logo-name{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.website-logo-container-sm{
+    display: none;
+}
+
+.nav-icons-container{
+    display: none;
+}
+
+.active-nav{
+    background-color: rgb(16, 174, 213);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .nav-icons-container{
+        display: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+        align-items: center;
+    }
+
+    .nav-btn-container{
+        display: none;
+    }
+
+    .website-logo-container{
+        display: none;
+    }
+
+    .nav-container{
+        justify-content: space-between;
+    }
+
+    .website-logo-container-sm{
+        display: block;
+        margin-right: 20%;
+    }
+
+    .nav-icons{
+        color: #ffffff;
+        font-size: 22px;
+    }
+}

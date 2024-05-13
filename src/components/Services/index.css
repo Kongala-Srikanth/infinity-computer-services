@@ -1,0 +1,106 @@
+.services-main-heading{
+    font-family: 'Roboto';
+    font-weight: 800;
+    color: #e56001;
+    text-align: center;
+    margin-top: 3%;
+    text-decoration: underline;
+}
+
+.service-main-container{
+    background-color: #F4FEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.service-card-container{
+    list-style-type: none;
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service-card{
+    background-color: #2c51630f;
+    border-radius: 15px;
+    padding: 15px;
+    width: 28%;
+    margin-top: 50px;
+    box-shadow: 
+    0 6px 12px rgba(255, 105, 180, 0.5),   /* Pink shadow */
+    0 8px 16px rgba(30, 144, 255, 0.5),     /* Dodger blue shadow */
+    0 10px 20px rgba(255, 215, 0, 0.5);     /* Gold shadow */
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-20px);
+  }
+
+.title-heading{
+    font-size: 17px;
+}
+
+.description{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-weight: 800;
+    padding: 3px;
+}
+
+span{
+    font-weight: 500;
+}
+
+.discount {
+    font-weight: 800;
+    background-color: rgba(4, 157, 4, 0.667);
+    padding: 3px;
+}
+
+.call-icon{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #2f0dd6;
+}
+
+.service-img{
+    height: 120px;
+    align-self: center;
+    margin: 20px;
+}
+
+.chat-icon-conatiner-service{
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0;
+    margin: 25px;
+}
+
+
+@media screen and (max-width: 768px){
+    .service-card{
+        width: 100%;
+    }
+}

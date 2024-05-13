@@ -1,0 +1,37 @@
+.not-found-container{
+    background-color: #F9FAF4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-img{
+    width: 70%;
+}
+
+.not-found-heading{
+    font-size: 25px;
+    color: #ffa600;
+}
+
+@media screen and (min-width: 768px){
+    .not-found-img{
+        width: 50%;
+    }
+
+    .not-found-heading{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .not-found-img{
+        width: 35%;
+    }
+
+    .not-found-heading{
+        font-size: 35px;
+    }
+}

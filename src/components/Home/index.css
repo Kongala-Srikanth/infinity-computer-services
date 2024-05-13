@@ -1,0 +1,188 @@
+.bg-img-container{
+    background-color: #F4FEFF;
+    min-height: 88vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 5%;
+}
+
+.heading-container {
+    text-align: center;
+}
+
+.heading {
+    font-size: 55px; /* Large font size */
+    font-weight: bold;
+    color: #2F80ED; /* Blue color */
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+/* Animated underline */
+.heading::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #2F80ED; /* Blue color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0); /* Initially hidden */
+    transition: transform 0.3s ease;
+}
+
+.heading:hover::after {
+    transform: scaleX(1); /* Show underline on hover */
+}
+
+.super-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px; /* Round button shape */
+    background: linear-gradient(45deg, #FFC837, #FF5F6D); /* Gradient background */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.super-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.super-button:hover {
+    transform: translateY(-5px); /* Move button slightly up on hover */
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.super-button:hover::before {
+    left: 100%; /* Slide gradient overlay on hover */
+}
+
+.home-banner-img{
+    height: 600px;
+}
+
+.home-banner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.hide-btn{
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    outline: none;  
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.chat-icon-conatiner{
+    align-self: flex-end;
+    margin-top: 15px;
+}
+
+.chat-icon{
+    color: rgb(11, 169, 11);
+    font-size: 40px;
+}
+
+.main-heading{
+    font-size: 55px;
+    font-weight: 800;
+    color: rgb(255, 111, 0);
+}
+
+.home-description{
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    margin-top: 15px;
+}
+
+
+
+.our-service-btn:hover{
+    background-color: rgba(10, 138, 236, 0.815);
+}
+
+.home-content-container{
+    margin-left: 10%;
+}
+
+.main-heading-sm{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .home-banner-container{
+        order: 0;
+    }
+
+    .home-banner-img{
+        height: 350px;
+    }
+
+    .home-content-container{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg-img-container{
+        flex-direction: column;
+    }
+    .main-heading{
+        display: none;
+    }
+
+    .main-heading-sm{
+        display: block;
+        font-size: 40px;
+        font-weight: 800;
+        color: rgb(255, 111, 0);
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .home-banner-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .chat-icon-conatiner{
+        display: none;
+    }
+
+    .heading{
+        font-size: 50px;
+        display: none;
+    }
+}
