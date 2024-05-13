@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/infinity-computer-services/static/css/main.71655a8e.css",
-    "main.js": "/infinity-computer-services/static/js/main.d9da219a.js",
-    "static/js/453.afd627c7.chunk.js": "/infinity-computer-services/static/js/453.afd627c7.chunk.js",
-    "index.html": "/infinity-computer-services/index.html",
-    "main.71655a8e.css.map": "/infinity-computer-services/static/css/main.71655a8e.css.map",
-    "main.d9da219a.js.map": "/infinity-computer-services/static/js/main.d9da219a.js.map",
-    "453.afd627c7.chunk.js.map": "/infinity-computer-services/static/js/453.afd627c7.chunk.js.map"
+    "main.css": "/static/css/main.71655a8e.css",
+    "main.js": "/static/js/main.b766e487.js",
+    "static/js/453.afd627c7.chunk.js": "/static/js/453.afd627c7.chunk.js",
+    "index.html": "/index.html",
+    "main.71655a8e.css.map": "/static/css/main.71655a8e.css.map",
+    "main.b766e487.js.map": "/static/js/main.b766e487.js.map",
+    "453.afd627c7.chunk.js.map": "/static/js/453.afd627c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71655a8e.css",
-    "static/js/main.d9da219a.js"
+    "static/js/main.b766e487.js"
   ]
 }
